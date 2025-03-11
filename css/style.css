@@ -1,0 +1,615 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #000;
+	height: 100vh;
+	font-family: Poppins, sans-serif;
+	font-size: 18px;
+	justify-items: center;
+}
+header{
+	height: 100px;
+	justify-content: center;
+	align-content: center;
+}
+.navbar{
+	display: flex;
+	background-color: #1C1A19;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	border-radius: 15px;
+}
+.nav-list{
+	display: flex;
+	gap: 50px;
+	height: 50px;
+	align-items: center;	
+}
+.home{
+	width: 20%;
+	color: #fff;
+}
+.projectsi{
+	width: 20%;
+	color: #fff;
+}
+.experiences{
+	width: 20%;
+	color: #fff;
+}
+.tools{
+	width: 20%;
+	color: #fff;
+}
+.thoughts{
+	width: 20%;
+	color: #fff;
+}
+/*nav bar ENDS here*/
+
+.main{
+	justify-content: center;
+	justify-items: center;
+	width: 90vw;
+
+}
+.container{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.layout1-container{
+	background-color: #000;
+	justify-content: center;
+	padding: 30px, 10px, 10px 10px;
+
+}
+
+.layout2-container{
+	height: auto;
+	margin-left: 60px;
+	color: #fff;
+
+}
+.face-card{
+	justify-items: center;
+/*	align-content: center;*/
+	background-color: #fff;
+	border-radius: 20px;
+	height: 80vh;
+	width: 23vw;
+	padding: 30px 20px;
+	position: sticky;
+	top: 60px;
+	text-align: center;
+}
+img{
+	width: 80%;
+	height: 20vh;
+	justify-content: center;
+	justify-items: center;
+}
+.profile-name{
+	margin-top: 25px;
+	font-size: 30px;
+	font-weight: 700px;
+
+}
+.bio{
+	margin-top: 40px;
+	font-weight: 300px;
+	font-size: 19px;
+	
+	text-align: center;
+
+}
+/*hero section STARTS here*/
+.hero-section{
+}
+
+
+.hero-header > h1{
+	font-size: 100px;
+/*	background-color: green;*/
+	width: 50vw;
+	padding: 5px;
+}
+.hero-p > p{
+	font-size: 22px;
+/*	background-color: palevioletred;*/
+	width: 40vw;
+	padding: 5px;
+}
+.hero-card{
+	padding: 5px;
+	display: flex;
+	gap: 40px;
+	width: 80%;
+
+}
+.hero-card1{
+	background-color: #f46c38;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	padding: 40px 20px 20px 20px;
+}
+.hero-card1 > i{
+	font-size: 30px;
+	color: #000;
+
+}
+.card1-text{
+	color: black;
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	line-height: 1.4rem;
+	font-size: 22px;
+}
+.card2-text{
+	color: black;
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	line-height: 1.4rem;
+	font-size: 22px;
+}
+.arrow-i{
+	color: #000;
+	width: 25px;
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px 5px 5px 5px;
+	margin-left: 250px;
+}
+.hero-card2{
+	background-color: #c5ff41;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	padding: 40px 20px 20px 20px;
+
+}
+.hero-card2 > i{
+	font-size: 30px;
+	color: #000;
+}
+
+
+.img >img{
+	border-radius: 20px;
+	height:auto ;
+
+}
+
+/*heading section starts here*/
+.heading-section{
+
+}
+/*.flex{
+	display: flex;*/
+}
+/*porject list starts here*/
+.project-header{
+	font-size: 60px;
+	width: 30vw;
+	padding: 5px;
+}
+.project-header > h2{
+	font-size: 60px;
+}
+.project-list{
+	background-color: #000;
+	padding: 5px;
+	width: 10s0%;
+}
+
+.project-1 , .project-2, .project-3{
+	display: flex;
+	width: 90%;
+/*	background-color: paleturquoise;*/
+	margin-bottom: 15px;
+}
+.project1, .project2{
+	width: 30%;
+	border-radius: 8px;
+	background-color: red;
+}
+.project3{
+	width: 21.5%;
+	border-radius: 8px;
+}
+.project1-content{
+	width: 100%;
+}
+.project1-content > p{
+	width: 100%;
+	font-size: 15px;
+}
+.project1-content > h3{
+	font-size: 40px;
+}
+
+.project-box{
+	width: 100%;
+	align-items: center;
+	display: flex;
+	gap: 25px;
+}
+
+.l-arrow{
+	width: 25px;
+	height: 25px;
+	color: orange;
+	margin-left: 340px;
+}
+.flex{
+	display: flex;
+}
+
+
+/*for the 3 project-box with same feature*/
+
+
+
+/*blogger blogger section starts here*/
+.blog{
+	/* justify-items: center; */
+}
+.blog-header{
+	font-size: 50px;
+	width: 60vw;
+	padding: 5px;
+}
+.blog-header > h2{
+	font-size: 60px;
+}
+.blog-list{
+	gap: 30px;
+	width: 100%
+
+}
+.post-card{
+	display: flex;
+	padding: 15px 7px 7px 15px;
+}
+
+.post-content{
+	width: 70%;
+/*	background-color: blue;*/
+}
+
+.h3-post{
+	margin-bottom: 12px;
+	font-size: 30px;
+}
+
+.p-post{
+	margin-bottom: 20px;
+}
+.blog-arrow{
+	margin-left: 100px;
+	width: 25px;
+	height: 25px;
+	color: orange;
+}
+/*blogger blogger section ends here*/
+
+
+/*contact info section*/
+
+.contact{
+	/* justify-content: center;
+	justify-items: center;
+	width: 100%;  */
+
+}
+.contact-header{
+	font-size: 50px;
+	width: 60vw;
+	padding: 5px;
+}
+.contact-header > h2{
+	font-size: 60px;
+}
+.contact-form{
+	background-color:  black;
+	padding: 5px;
+	width: 90%;
+
+}
+
+.form-box{
+	display: flex;
+	gap: 20px;
+	display: block;
+	width: 100%;
+	
+}
+.name-form, .email-form{
+	width: 100%;
+}
+
+.name-box, .email-box{
+	border-radius: 5px;
+	border: none;
+	width: 60vw;
+	height: 25px;
+	background-color: #1C1A19;
+}
+.budget-form{
+
+}
+.budget-box{
+	border-radius: 5px;
+	width: 60vw;
+	border: none;
+	background-color: #1C1A19;
+	height: 25px;
+}
+
+.message-box{
+	width: 60vw;
+	border-radius: 5px;
+	height: 30vh;
+	border: none;
+	background-color: #1C1A19;
+
+}
+
+.submit{
+	border: none;
+	width: 60vw;
+	height: 40px;
+	margin-top: 10px;
+	background-color: orange;
+	border-radius: 5px;
+	border: none;
+}
+label{
+	font-size: 10px;
+	font-weight: 200px;
+	color: #fff;
+}
+
+
+/*footer starts here*/
+.footer-section{
+	height: 150px;
+	width: 90vw;
+	justify-items: center;
+	align-items: center;
+}
+.footer-box{
+	color: #fff;
+	display: flex;
+	gap: 30px;
+	margin-top: 30px;
+	align-items: center;
+	
+}
+.designer{
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+}
+span{
+	color: greenyellow;
+}
+
+
+
+					/* media query starts here */
+/*media query starts here*/
+@media (max-width: 950px)
+{
+	*{
+		padding: 0;
+		margin: 0.5px;
+		box-sizing: border-box;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.main{
+		justify-items: center;
+		width: auto;
+		justify-content: center;
+		margin-left: 20px;
+	}
+	.layout1-container{
+		margin: none;
+		width: 95%;
+		height: 90vh;
+	}
+	.face-card{
+		width: 100%;
+/*		margin-bottom: 80px;*/
+		height: 80vh;
+		font-size: 50px;
+	}
+	img{
+	width: 50%;
+	}
+	.profile-name{
+		font-size: 40px;
+	}
+	.bio{
+		font-size: 30px;
+		text-align: center;
+	}
+	.layout2-container{
+/*	background-color: hotpink;*/
+	margin-top: 80px;
+	margin-left: 0px;
+	width: 100%;
+/*	justify-items: center;*/
+	}
+	.hero-section{
+		margin-top: 25px;
+		justify-items: center;
+	}
+	.hero-card{
+	display: block;
+	margin-top: 15px;
+	}
+	.hero-card2{
+		margin-top: 15px;
+	}
+
+
+	.hero-header > h1{
+		font-size: 80px;
+		text-align: center;
+		width: 100%;
+	}
+	.hero-p{
+		justify-items: center;
+	}
+	.hero-p > p{
+		
+		text-align: center;
+		width: 65%;
+	}
+	.project-section{
+		margin-top: 15px;
+		justify-items: center;
+	}
+	.project-header{
+		font-size: 60px;
+		align-items: center;
+		justify-items: center;
+	}
+	.prohect-box{
+		width: 100%;
+	}
+
+	.l-arrow{
+		margin-left: 100px;
+	}
+
+	.project-header > h2{
+		font-size: 60px;
+
+	
+	.project1,  .project2{
+		width: 40%;
+		height: 40vh;
+		border-radius: 40px;
+	}
+	.project3{
+		width: 40%;
+		border-radius: 10px;
+	}
+
+	.blog{
+		margin-top: 40px;
+		justify-items: center;
+	}
+	.blog-header{
+		width: 90vw;
+		background-color: red;
+		justify-items: center;
+		font-size: 30px;
+		align-items: center; 
+		text-align: center;
+	}
+	.blog-header > h2{
+		font-size: 60px;
+		margin-left: 20px;
+	}
+	.contact{
+		margin-top: 30px;
+		justify-items: center;
+	}
+	.contact-header{
+		width: 50vw;
+		text-align: center;
+		justify-items: center;
+		font-size: 30px;
+	}
+	.contact-header > h2{
+		justify-content: center;
+		text-align: center;
+		font-size: 30px;
+		width: 50vw;
+	}
+	.contact-form{
+		width: 75%;
+		background-color: gray;
+		justify-items: center;
+		justify-content: center;
+		align-items: center;
+	}
+	.form-box{
+		width: 100%;
+		gap: 2px;
+		display: block;
+		flex-direction: column;
+	}
+
+
+	.name-box, .email-box{
+		width:100vw;
+	}
+	.name-form, .email-form{
+		width: 100%;
+	}
+
+	.email-form{
+		margin-left: 100px;
+		width: 100%;
+	}
+
+	.email-box{
+		margin-top: 100px;
+		width: 100%;
+	}
+	.budget-box{
+	border-radius: 5px;
+	width: 100%;
+	height: 35px;
+	}
+
+.message-box{
+	width: 100%;
+	height: 25vh;
+	}
+
+
+.submit{
+	border: none;
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+	background-color: orange;
+	border-radius: 5px;
+	border: none;
+	}
+	.footer-section{
+		height: 150px;
+		width: 100%;
+		justify-items: center;
+		align-items: center;
+		text-align: center;
+	}
+	.footer-box{
+		width: 85%;
+		display: flex;
+
+	}
+	/* .designer{
+		margin-right: 30px;
+
+		width: 95%;
+		align-items: center
+		align-content: center;
+		text-align: center;
+		justify-items: center;
+	} */
+
+}
